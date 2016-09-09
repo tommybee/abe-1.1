@@ -1,0 +1,71 @@
+# Project: abe
+# Makefile created by Dev-C++ 4.9.9.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = ../src/Directories.o ../src/Editor.o ../src/Font.o ../src/Game.o ../src/Icons.o ../src/Image.o ../src/Main.o ../src/Map.o ../src/MapIO.o ../src/Menu.o ../src/Monster.o ../src/Sound.o ../src/Splash.o ../src/Trans.o ../src/Util.o $(RES)
+LINKOBJ  = ../src/Directories.o ../src/Editor.o ../src/Font.o ../src/Game.o ../src/Icons.o ../src/Image.o ../src/Main.o ../src/Map.o ../src/MapIO.o ../src/Menu.o ../src/Monster.o ../src/Sound.o ../src/Splash.o ../src/Trans.o ../src/Util.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows -O2 -Wall -Wno-deprecated -fomit-frame-pointer -ffast-math -fexpensive-optimizations -lmingw32 -lSDLmain -lSDL -lm -lSDL_mixer  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/include/c++/3.3.1"  -I"C:/Dev-Cpp/include/c++/3.3.1/mingw32"  -I"C:/Dev-Cpp/include/c++/3.3.1/backward"  -I"C:/Dev-Cpp/lib/gcc-lib/mingw32/3.3.1/include"  -I"C:/Dev-Cpp/include" 
+BIN  = abe.exe
+CXXFLAGS = $(CXXINCS) -O2 -Wall -Wno-deprecated -fomit-frame-pointer -ffast-math -fexpensive-optimizations -I"C:\Dev-Cpp\\include\SDL" -Dmain=SDL_main   
+CFLAGS = $(INCS) -O2 -Wall -Wno-deprecated -fomit-frame-pointer -ffast-math -fexpensive-optimizations -I"C:\Dev-Cpp\\include\SDL" -Dmain=SDL_main   
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before abe.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "abe.exe" $(LIBS)
+
+../src/Directories.o: ../src/Directories.c
+	$(CC) -c ../src/Directories.c -o ../src/Directories.o $(CFLAGS)
+
+../src/Editor.o: ../src/Editor.c
+	$(CC) -c ../src/Editor.c -o ../src/Editor.o $(CFLAGS)
+
+../src/Font.o: ../src/Font.c
+	$(CC) -c ../src/Font.c -o ../src/Font.o $(CFLAGS)
+
+../src/Game.o: ../src/Game.c
+	$(CC) -c ../src/Game.c -o ../src/Game.o $(CFLAGS)
+
+../src/Icons.o: ../src/Icons.c
+	$(CC) -c ../src/Icons.c -o ../src/Icons.o $(CFLAGS)
+
+../src/Image.o: ../src/Image.c
+	$(CC) -c ../src/Image.c -o ../src/Image.o $(CFLAGS)
+
+../src/Main.o: ../src/Main.c
+	$(CC) -c ../src/Main.c -o ../src/Main.o $(CFLAGS)
+
+../src/Map.o: ../src/Map.c
+	$(CC) -c ../src/Map.c -o ../src/Map.o $(CFLAGS)
+
+../src/MapIO.o: ../src/MapIO.c
+	$(CC) -c ../src/MapIO.c -o ../src/MapIO.o $(CFLAGS)
+
+../src/Menu.o: ../src/Menu.c
+	$(CC) -c ../src/Menu.c -o ../src/Menu.o $(CFLAGS)
+
+../src/Monster.o: ../src/Monster.c
+	$(CC) -c ../src/Monster.c -o ../src/Monster.o $(CFLAGS)
+
+../src/Sound.o: ../src/Sound.c
+	$(CC) -c ../src/Sound.c -o ../src/Sound.o $(CFLAGS)
+
+../src/Splash.o: ../src/Splash.c
+	$(CC) -c ../src/Splash.c -o ../src/Splash.o $(CFLAGS)
+
+../src/Trans.o: ../src/Trans.c
+	$(CC) -c ../src/Trans.c -o ../src/Trans.o $(CFLAGS)
+
+../src/Util.o: ../src/Util.c
+	$(CC) -c ../src/Util.c -o ../src/Util.o $(CFLAGS)

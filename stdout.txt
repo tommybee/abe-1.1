@@ -1,0 +1,4 @@
+Loading map .\maps\intro.dat
+map dimensions 32x24
+size 2304
+Decompressing... real_size=212

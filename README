@@ -1,0 +1,69 @@
+-------------------------
+Abe's Amazing Adventure!!
+-------------------------
+
+Requirements:
+-------------------------
+-SDL library
+
+How to build it:
+-------------------------
+Linux:
+./autogen.sh
+./configure
+./make
+
+Windows (cross-compile on linux):
+./autogen.sh
+./cross-configure
+./cross-make clean all
+(You may need to: cp abe abe.exe)
+
+You need to install mingw's cross-compiler tools for this to work.
+See: http://www.mingw.org/mingwfaq.shtml#faq-cross
+
+How to run it:
+-------------------------
+./abe
+
+and in fullscreen mode:
+./abe -f
+
+on Windows:
+abe.exe
+
+Notes:
+-------------------------
+You can also run: ./abe --help to see some other options.
+Abe can in video modes between 320x200 to 800x600. It needs at least a 16bpp mode.
+You can do: ./abe -t to see what video modes will run faster in fullscreen mode.
+
+Controls:
+---------
+This is only a demo, so please excuse the rough edges. 
+On the startup screen, hit "SPACE" to run the game, or "ENTER" to run the editor.
+In general the keys are:
+
+Game:
+arrow keys - move
+space - jump
+enter - use a balloon
+esc - quit
+
+Editor: (to enable the editor set Game.h/GOD_MODE to 1 and re-build)
+arrow keys - move
+home,end,pageup,pagedown - move around by pages
+enter - put down tile
+1,2,3 - select layer
+del,backspace - clear tile
+5,6 - cycle thru tiles
+L - load map
+S - save map
+esc - quit
+q,w - make a slide (q-top left, w-bottom right)
+q,e - make a rectangle
+
+If you have any comments, email me at cctorok@yahoo.com.
+
+Many thanks for sourceforge for hosting Abe!!. Look for more info at http://abe.sf.net.
+

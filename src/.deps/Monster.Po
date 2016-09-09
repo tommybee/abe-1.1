@@ -1,0 +1,227 @@
+Monster.o: Monster.c Monster.h Main.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdlib.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/crtdefs.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/vadefs.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/limits.h \
+ C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/syslimits.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/limits.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/malloc.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/string.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sec_api/string_s.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_main.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_stdinc.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_config.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_platform.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sys/types.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_off_t.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdio.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_print_push.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/swprintf.inl \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h \
+ C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include/stddef.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stddef.h \
+ C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include/stdarg.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdarg.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/strings.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/inttypes.h \
+ C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include/stdint.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdint.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/ctype.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/begin_code.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/close_code.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_audio.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_error.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_endian.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_mutex.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_thread.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_rwops.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_cdrom.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_cpuinfo.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_events.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_active.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_keyboard.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_keysym.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_mouse.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_video.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_joystick.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_quit.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_loadso.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_timer.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_version.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_thread.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_mixer.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_types.h Common.h Image.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/dirent.h \
+ C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/io.h Font.h Util.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_rwops.h \
+ C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_endian.h Sound.h \
+ Directories.h Splash.h Menu.h Map.h MapIO.h Editor.h Icons.h Game.h
+
+Monster.h:
+
+Main.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdlib.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/crtdefs.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_mac.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_secapi.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/vadefs.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/limits.h:
+
+C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/syslimits.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/limits.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/malloc.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/string.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sec_api/string_s.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_main.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_stdinc.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_config.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_platform.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sys/types.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_off_t.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdio.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_print_push.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/swprintf.inl:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h:
+
+C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include/stddef.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stddef.h:
+
+C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include/stdarg.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdarg.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/strings.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/inttypes.h:
+
+C:/DEV/COMP/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include/stdint.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/stdint.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/ctype.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/begin_code.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/close_code.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_audio.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_error.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_endian.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_mutex.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_thread.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_rwops.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_cdrom.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_cpuinfo.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_events.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_active.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_keyboard.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_keysym.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_mouse.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_video.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_joystick.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_quit.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_loadso.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_timer.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_version.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_thread.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_mixer.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_types.h:
+
+Common.h:
+
+Image.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/dirent.h:
+
+C:/DEV/COMP/msys32/mingw32/i686-w64-mingw32/include/io.h:
+
+Font.h:
+
+Util.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_rwops.h:
+
+C:/DEV/COMP/msys32/mingw32/include/SDL/SDL_endian.h:
+
+Sound.h:
+
+Directories.h:
+
+Splash.h:
+
+Menu.h:
+
+Map.h:
+
+MapIO.h:
+
+Editor.h:
+
+Icons.h:
+
+Game.h:

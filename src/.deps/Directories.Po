@@ -1,0 +1,3 @@
+Directories.o: Directories.c Directories.h
+
+Directories.h:
